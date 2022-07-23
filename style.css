@@ -1,5 +1,13 @@
+body {
+  display: flex;
+  justify-content: center;
+}
+
 #btns {
   width: 75vw;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
 #btn1,
@@ -11,7 +19,7 @@
 #btn7,
 #btn8,
 #btn9 {
-  width: 30vw;
+  width: 32%;
   height: 48px;
   font-size: 24px;
 }
